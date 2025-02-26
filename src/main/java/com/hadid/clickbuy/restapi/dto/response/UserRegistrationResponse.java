@@ -5,12 +5,12 @@ import lombok.Getter;
 
 import java.util.List;
 
-@Getter
 @Builder
-public class UserRegistrationResponse {
+public record UserRegistrationResponse(
+        String message,
+        List<String> roles
+) {
 
-    private String message;
 
-    private List<String> roles;
 
 }
