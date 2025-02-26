@@ -9,8 +9,4 @@ import java.util.List;
 public record UserRegistrationResponse(
         String message,
         List<String> roles
-) {
-
-
-
-}
+) {}
